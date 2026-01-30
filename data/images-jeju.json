@@ -1,0 +1,27 @@
+{
+    "pc": [
+        "/images/jeju/index_01.jpg",
+        "/images/jeju/index_02.jpg",
+        "/images/jeju/index_03.jpg",
+        "/images/jeju/index_04.jpg",
+        "/images/jeju/index_05.jpg",
+        "/images/jeju/index_06.jpg",
+        "/images/jeju/index_07.jpg",
+        "/images/jeju/index_08.jpg",
+        "/images/jeju/index_09.jpg",
+        "/images/jeju/index_10.jpg"
+    ],
+    "mobile": [
+        "/images/jeju/m_index_01.jpg",
+        "/images/jeju/m_index_02.jpg",
+        "/images/jeju/m_index_03.jpg",
+        "/images/jeju/m_index_04.jpg",
+        "/images/jeju/m_index_05.jpg",
+        "/images/jeju/m_index_06.jpg",
+        "/images/jeju/m_index_07.jpg",
+        "/images/jeju/m_index_08.jpg",
+        "/images/jeju/m_index_09.jpg",
+        "/images/jeju/m_index_10.jpg"
+    ]
+}
+

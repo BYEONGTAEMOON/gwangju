@@ -1,0 +1,26 @@
+{
+    "pc": [
+        "/images/busan/index_01.jpg",
+        "/images/busan/index_02.jpg",
+        "/images/busan/index_03.jpg",
+        "/images/busan/index_04.jpg",
+        "/images/busan/index_05.jpg",
+        "/images/busan/index_06.jpg",
+        "/images/busan/index_07.jpg",
+        "/images/busan/index_08.jpg",
+        "/images/busan/index_09.jpg",
+        "/images/busan/index_10.jpg"
+    ],
+    "mobile": [
+        "/images/busan/m_index_01.jpg",
+        "/images/busan/m_index_02.jpg",
+        "/images/busan/m_index_03.jpg",
+        "/images/busan/m_index_04.jpg",
+        "/images/busan/m_index_05.jpg",
+        "/images/busan/m_index_06.jpg",
+        "/images/busan/m_index_07.jpg",
+        "/images/busan/m_index_08.jpg",
+        "/images/busan/m_index_09.jpg",
+        "/images/busan/m_index_10.jpg"
+    ]
+}

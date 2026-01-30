@@ -1,0 +1,26 @@
+{
+    "pc": [
+        "/images/gwangju/index_01.jpg",
+        "/images/gwangju/index_02.jpg",
+        "/images/gwangju/index_03.jpg",
+        "/images/gwangju/index_04.jpg",
+        "/images/gwangju/index_05.jpg",
+        "/images/gwangju/index_06.jpg",
+        "/images/gwangju/index_07.jpg",
+        "/images/gwangju/index_08.jpg",
+        "/images/gwangju/index_09.jpg",
+        "/images/gwangju/index_10.jpg"
+    ],
+    "mobile": [
+        "/images/gwangju/m_index_01.jpg",
+        "/images/gwangju/m_index_02.jpg",
+        "/images/gwangju/m_index_03.jpg",
+        "/images/gwangju/m_index_04.jpg",
+        "/images/gwangju/m_index_05.jpg",
+        "/images/gwangju/m_index_06.jpg",
+        "/images/gwangju/m_index_07.jpg",
+        "/images/gwangju/m_index_08.jpg",
+        "/images/gwangju/m_index_09.jpg",
+        "/images/gwangju/m_index_10.jpg"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "pc": [
+    "/images/seoul/index_01.jpg",
+    "/images/seoul/index_02.jpg",
+    "/images/seoul/index_03.jpg",
+    "/images/seoul/index_04.jpg",
+    "/images/seoul/index_05.jpg",
+    "/images/seoul/index_06.jpg",
+    "/images/seoul/index_07.jpg",
+    "/images/seoul/index_08.jpg",
+    "/images/seoul/index_09.jpg",
+    "/images/seoul/index_10.jpg"
+  ],
+  "mobile": [
+    "/images/seoul/m_index_01.jpg",
+    "/images/seoul/m_index_02.jpg",
+    "/images/seoul/m_index_03.jpg",
+    "/images/seoul/m_index_04.jpg",
+    "/images/seoul/m_index_05.jpg",
+    "/images/seoul/m_index_06.jpg",
+    "/images/seoul/m_index_07.jpg",
+    "/images/seoul/m_index_08.jpg",
+    "/images/seoul/m_index_09.jpg",
+    "/images/seoul/m_index_10.jpg"
+  ]
+}
+

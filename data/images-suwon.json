@@ -1,0 +1,26 @@
+{
+  "pc": [
+    "/images/suwon/index_01.jpg",
+    "/images/suwon/index_02.jpg",
+    "/images/suwon/index_03.jpg",
+    "/images/suwon/index_04.jpg",
+    "/images/suwon/index_05.jpg",
+    "/images/suwon/index_06.jpg",
+    "/images/suwon/index_07.jpg",
+    "/images/suwon/index_08.jpg",
+    "/images/suwon/index_09.jpg",
+    "/images/suwon/index_10.jpg"
+  ],
+  "mobile": [
+    "/images/suwon/m_index_01.jpg",
+    "/images/suwon/m_index_02.jpg",
+    "/images/suwon/m_index_03.jpg",
+    "/images/suwon/m_index_04.jpg",
+    "/images/suwon/m_index_05.jpg",
+    "/images/suwon/m_index_06.jpg",
+    "/images/suwon/m_index_07.jpg",
+    "/images/suwon/m_index_08.jpg",
+    "/images/suwon/m_index_09.jpg",
+    "/images/suwon/m_index_10.jpg"
+  ]
+}

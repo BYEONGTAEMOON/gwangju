@@ -1,0 +1,26 @@
+{
+    "pc": [
+        "/images/daegu/index_01.jpg",
+        "/images/daegu/index_02.jpg",
+        "/images/daegu/index_03.jpg",
+        "/images/daegu/index_04.jpg",
+        "/images/daegu/index_05.jpg",
+        "/images/daegu/index_06.jpg",
+        "/images/daegu/index_07.jpg",
+        "/images/daegu/index_08.jpg",
+        "/images/daegu/index_09.jpg",
+        "/images/daegu/index_10.jpg"
+    ],
+    "mobile": [
+        "/images/daegu/m_index_01.jpg",
+        "/images/daegu/m_index_02.jpg",
+        "/images/daegu/m_index_03.jpg",
+        "/images/daegu/m_index_04.jpg",
+        "/images/daegu/m_index_05.jpg",
+        "/images/daegu/m_index_06.jpg",
+        "/images/daegu/m_index_07.jpg",
+        "/images/daegu/m_index_08.jpg",
+        "/images/daegu/m_index_09.jpg",
+        "/images/daegu/m_index_10.jpg"
+    ]
+}

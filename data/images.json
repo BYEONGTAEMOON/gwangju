@@ -1,0 +1,28 @@
+{
+  "pc": [
+    "/images/all/index_01.jpg",
+    "/images/all/index_02.jpg",
+    "/images/all/index_03.jpg",
+    "/images/all/index_04.jpg",
+    "/images/all/index_05.jpg",
+    "https://www.youtube.com/embed/q9O3Pu4gPKM",
+    "/images/all/index_06.jpg",
+    "/images/all/index_07.jpg",
+    "/images/all/index_08.jpg",
+    "/images/all/index_09.jpg",
+    "/images/all/index_10.jpg"
+  ],
+  "mobile": [
+    "/images/all/m_index_01.jpg",
+    "/images/all/m_index_02.jpg",
+    "/images/all/m_index_03.jpg",
+    "/images/all/m_index_04.jpg",
+    "/images/all/m_index_05.jpg",
+    "https://www.youtube.com/embed/q9O3Pu4gPKM",
+    "/images/all/m_index_06.jpg",
+    "/images/all/m_index_07.jpg",
+    "/images/all/m_index_08.jpg",
+    "/images/all/m_index_09.jpg",
+    "/images/all/m_index_10.jpg"
+  ]
+}

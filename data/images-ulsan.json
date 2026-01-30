@@ -1,0 +1,26 @@
+{
+    "pc": [
+        "/images/ulsan/index_01.jpg",
+        "/images/ulsan/index_02.jpg",
+        "/images/ulsan/index_03.jpg",
+        "/images/ulsan/index_04.jpg",
+        "/images/ulsan/index_05.jpg",
+        "/images/ulsan/index_06.jpg",
+        "/images/ulsan/index_07.jpg",
+        "/images/ulsan/index_08.jpg",
+        "/images/ulsan/index_09.jpg",
+        "/images/ulsan/index_10.jpg"
+    ],
+    "mobile": [
+        "/images/ulsan/m_index_01.jpg",
+        "/images/ulsan/m_index_02.jpg",
+        "/images/ulsan/m_index_03.jpg",
+        "/images/ulsan/m_index_04.jpg",
+        "/images/ulsan/m_index_05.jpg",
+        "/images/ulsan/m_index_06.jpg",
+        "/images/ulsan/m_index_07.jpg",
+        "/images/ulsan/m_index_08.jpg",
+        "/images/ulsan/m_index_09.jpg",
+        "/images/ulsan/m_index_10.jpg"
+    ]
+}

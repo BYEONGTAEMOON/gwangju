@@ -1,0 +1,26 @@
+{
+    "pc": [
+        "/images/incheon/index_01.jpg",
+        "/images/incheon/index_02.jpg",
+        "/images/incheon/index_03.jpg",
+        "/images/incheon/index_04.jpg",
+        "/images/incheon/index_05.jpg",
+        "/images/incheon/index_06.jpg",
+        "/images/incheon/index_07.jpg",
+        "/images/incheon/index_08.jpg",
+        "/images/incheon/index_09.jpg",
+        "/images/incheon/index_10.jpg"
+    ],
+    "mobile": [
+        "/images/incheon/m_index_01.jpg",
+        "/images/incheon/m_index_02.jpg",
+        "/images/incheon/m_index_03.jpg",
+        "/images/incheon/m_index_04.jpg",
+        "/images/incheon/m_index_05.jpg",
+        "/images/incheon/m_index_06.jpg",
+        "/images/incheon/m_index_07.jpg",
+        "/images/incheon/m_index_08.jpg",
+        "/images/incheon/m_index_09.jpg",
+        "/images/incheon/m_index_10.jpg"
+    ]
+}
