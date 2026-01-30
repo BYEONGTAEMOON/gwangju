@@ -1,0 +1,121 @@
+[14-Jan-2026 06:31:05 UTC] === LOGIN REQUEST START ===
+[14-Jan-2026 06:31:05 UTC] Method: POST
+[14-Jan-2026 06:31:05 UTC] Content-Type: application/json
+[14-Jan-2026 06:31:05 UTC] php://input: {"username":"seoul_admin","password":"seoul7391"}
+[14-Jan-2026 06:31:05 UTC] php://input length: 49
+[14-Jan-2026 06:31:05 UTC] Trying to decode JSON
+[14-Jan-2026 06:31:05 UTC] JSON decode result: Array
+(
+    [username] => seoul_admin
+    [password] => seoul7391
+)
+
+[14-Jan-2026 06:31:05 UTC] JSON last error: No error
+[14-Jan-2026 06:31:05 UTC] Data keys: username, password
+[14-Jan-2026 06:31:05 UTC] Username: seoul_admin
+[14-Jan-2026 06:31:05 UTC] Password length: 9
+[15-Jan-2026 01:31:27 UTC] === 로그인 요청 수신 ===
+[15-Jan-2026 01:31:27 UTC] Request Method: POST
+[15-Jan-2026 01:31:27 UTC] Content-Type: multipart/form-data; boundary=----WebKitFormBoundary2abP6B17aJuqgAKl
+[15-Jan-2026 01:31:27 UTC] ✅ FormData 방식으로 데이터 수신
+[15-Jan-2026 01:31:27 UTC] Username: admin
+[15-Jan-2026 01:31:27 UTC] Password length: 11
+[15-Jan-2026 01:31:27 UTC] ✅ 로그인 성공: admin (Role: super)
+[15-Jan-2026 01:31:39 UTC] === 신청 요청 수신 ===
+[15-Jan-2026 01:31:39 UTC] Method: POST
+[15-Jan-2026 01:31:39 UTC] Content-Type: multipart/form-data; boundary=----WebKitFormBoundarySBaZSb7gdTHu8gvH
+[15-Jan-2026 01:31:39 UTC] ✅ FormData 방식으로 데이터 수신
+[15-Jan-2026 01:31:39 UTC] Name: 테스트
+[15-Jan-2026 01:31:39 UTC] Phone: 010-0000-0000
+[15-Jan-2026 01:31:39 UTC] Date: 1월24일(토)
+[15-Jan-2026 01:31:39 UTC] Region: seoul
+[15-Jan-2026 01:31:39 UTC] ✅ 신청 완료: 테스트 / 010-0000-0000 / 1월24일(토) (seoul)
+[27-Jan-2026 08:41:27 UTC] === 로그인 요청 수신 ===
+[27-Jan-2026 08:41:27 UTC] Request Method: POST
+[27-Jan-2026 08:41:27 UTC] Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryrlJG0CHmYdTJVVnh
+[27-Jan-2026 08:41:27 UTC] ✅ FormData 방식으로 데이터 수신
+[27-Jan-2026 08:41:27 UTC] Username: admin
+[27-Jan-2026 08:41:27 UTC] Password length: 11
+[27-Jan-2026 08:41:27 UTC] ✅ 로그인 성공: admin (Role: super)
+[27-Jan-2026 08:41:47 UTC] === 날짜 저장 요청 수신 ===
+[27-Jan-2026 08:41:47 UTC] Region: seoul
+[27-Jan-2026 08:41:47 UTC] ✅ FormData 방식으로 데이터 수신
+[27-Jan-2026 08:41:47 UTC] 날짜 개수: 3
+[27-Jan-2026 08:41:47 UTC] 저장 경로: /Users/moon/php/data/dates-seoul.json
+[27-Jan-2026 08:41:47 UTC] ✅ 날짜 저장 성공: 217 bytes
+[27-Jan-2026 08:44:53 UTC] === 날짜 저장 요청 수신 ===
+[27-Jan-2026 08:44:53 UTC] Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryuSgTG8tEhCZ7PxYU
+[27-Jan-2026 08:44:53 UTC] Region: seoul
+[27-Jan-2026 08:44:53 UTC] ✅ FormData 방식 감지
+[27-Jan-2026 08:44:53 UTC] $_POST[dates]: [{"value":"3월15일(토)","enabled":true},{"value":"1월25일(일)","enabled":true},{"value":"2월1일(토)","enabled":true}]
+[27-Jan-2026 08:44:53 UTC] ✅ FormData 파싱 성공, 날짜 개수: 3
+[27-Jan-2026 08:44:53 UTC] 저장 경로: /Users/moon/php/data/dates-seoul.json
+[27-Jan-2026 08:44:53 UTC] ✅ 날짜 저장 성공: 217 bytes
+[27-Jan-2026 08:48:10 UTC] === 날짜 저장 요청 수신 ===
+[27-Jan-2026 08:48:10 UTC] Content-Type: multipart/form-data; boundary=----WebKitFormBoundarysqrbBzLfaq0mDaCx
+[27-Jan-2026 08:48:10 UTC] Region: seoul
+[27-Jan-2026 08:48:10 UTC] ✅ FormData 방식 감지
+[27-Jan-2026 08:48:10 UTC] $_POST[dates]: [{"value":"2월7일(토)","enabled":true},{"value":"2월8일(일)","enabled":true}]
+[27-Jan-2026 08:48:10 UTC] ✅ FormData 파싱 성공, 날짜 개수: 2
+[27-Jan-2026 08:48:10 UTC] 저장 경로: /Users/moon/php/data/dates-seoul.json
+[27-Jan-2026 08:48:10 UTC] ✅ 날짜 저장 성공: 144 bytes
+[27-Jan-2026 08:48:19 UTC] === 날짜 저장 요청 수신 ===
+[27-Jan-2026 08:48:19 UTC] Content-Type: multipart/form-data; boundary=----WebKitFormBoundarys2JLipoLiiqjBkvW
+[27-Jan-2026 08:48:19 UTC] Region: incheon
+[27-Jan-2026 08:48:19 UTC] ✅ FormData 방식 감지
+[27-Jan-2026 08:48:19 UTC] $_POST[dates]: [{"value":"2월7일(토)","enabled":true},{"value":"2월8일(일)","enabled":true}]
+[27-Jan-2026 08:48:19 UTC] ✅ FormData 파싱 성공, 날짜 개수: 2
+[27-Jan-2026 08:48:19 UTC] 저장 경로: /Users/moon/php/data/dates-incheon.json
+[27-Jan-2026 08:48:19 UTC] ✅ 날짜 저장 성공: 144 bytes
+[30-Jan-2026 07:03:28 UTC] === 신청 요청 수신 ===
+[30-Jan-2026 07:03:28 UTC] Method: POST
+[30-Jan-2026 07:03:28 UTC] Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryXA5Pu1E2QUnTteNQ
+[30-Jan-2026 07:03:28 UTC] ✅ FormData 방식으로 데이터 수신
+[30-Jan-2026 07:03:28 UTC] Name: 문병태
+[30-Jan-2026 07:03:28 UTC] Phone: 010-6666-4564
+[30-Jan-2026 07:03:28 UTC] Date: 1월3일(토)
+[30-Jan-2026 07:03:28 UTC] Region: main
+[30-Jan-2026 07:03:28 UTC] ✅ 신청 완료: 문병태 / 010-6666-4564 / 1월3일(토) (main)
+[30-Jan-2026 07:03:28 UTC] === 이메일 전송 시작 ===
+[30-Jan-2026 07:03:28 UTC] 이메일 설정: {"enabled":false,"email_to":"","email_subject":"[\ud5c8\ub2c8\ubb38\ubc15\ub78c\ud68c] \uc0c8\ub85c\uc6b4 \uc2e0\uccad\uc774 \uc811\uc218\ub418\uc5c8\uc2b5\ub2c8\ub2e4"}
+[30-Jan-2026 07:03:28 UTC] ❌ 이메일 알림이 비활성화되어 있습니다.
+[30-Jan-2026 07:03:36 UTC] === 로그인 요청 수신 ===
+[30-Jan-2026 07:03:36 UTC] Request Method: POST
+[30-Jan-2026 07:03:36 UTC] Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryxoUWZIBZHbHsBAUp
+[30-Jan-2026 07:03:36 UTC] ✅ FormData 방식으로 데이터 수신
+[30-Jan-2026 07:03:36 UTC] Username: admin
+[30-Jan-2026 07:03:36 UTC] Password length: 11
+[30-Jan-2026 07:03:36 UTC] ✅ 로그인 성공: admin (Role: super)
+[30-Jan-2026 07:03:52 UTC] === 로그인 요청 수신 ===
+[30-Jan-2026 07:03:52 UTC] Request Method: POST
+[30-Jan-2026 07:03:52 UTC] Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryCOBfGAZcxtfIvW7U
+[30-Jan-2026 07:03:52 UTC] ✅ FormData 방식으로 데이터 수신
+[30-Jan-2026 07:03:52 UTC] Username: admin
+[30-Jan-2026 07:03:52 UTC] Password length: 11
+[30-Jan-2026 07:03:52 UTC] ✅ 로그인 성공: admin (Role: super)
+[30-Jan-2026 07:07:29 UTC] === 신청 요청 수신 ===
+[30-Jan-2026 07:07:29 UTC] Method: POST
+[30-Jan-2026 07:07:29 UTC] Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryDBzAJuJZuIA1sPpD
+[30-Jan-2026 07:07:29 UTC] ✅ FormData 방식으로 데이터 수신
+[30-Jan-2026 07:07:29 UTC] Name: 테스트
+[30-Jan-2026 07:07:29 UTC] Phone: 010-5555-4642
+[30-Jan-2026 07:07:29 UTC] Date: 1월3일(토)
+[30-Jan-2026 07:07:29 UTC] Region: main
+[30-Jan-2026 07:07:29 UTC] ✅ 신청 완료: 테스트 / 010-5555-4642 / 1월3일(토) (main)
+[30-Jan-2026 07:07:29 UTC] === 이메일 전송 시작 ===
+[30-Jan-2026 07:07:29 UTC] 이메일 설정: {"enabled":false,"email_to":"","email_subject":"[\ud5c8\ub2c8\ubb38\ubc15\ub78c\ud68c] \uc0c8\ub85c\uc6b4 \uc2e0\uccad\uc774 \uc811\uc218\ub418\uc5c8\uc2b5\ub2c8\ub2e4"}
+[30-Jan-2026 07:07:29 UTC] ❌ 이메일 알림이 비활성화되어 있습니다.
+[30-Jan-2026 07:07:52 UTC] === 신청 내역 삭제 요청 (FormData 방식) ===
+[30-Jan-2026 07:07:52 UTC] 삭제 ID: 7c2a71a2-68fa-4466-adc4-7f14f233c04a
+[30-Jan-2026 07:07:52 UTC] Region: main
+[30-Jan-2026 07:07:52 UTC] 파일 경로: /Users/moon/php_gwangju/data/submissions-main.json
+[30-Jan-2026 07:07:52 UTC] 삭제 전 개수: 2
+[30-Jan-2026 07:07:52 UTC] 삭제 후 개수: 1
+[30-Jan-2026 07:07:52 UTC] ✅ 삭제 성공
+[30-Jan-2026 07:07:58 UTC] === 신청 내역 삭제 요청 (FormData 방식) ===
+[30-Jan-2026 07:07:58 UTC] 삭제 ID: 3d54e4df-df9f-4acc-90df-7291101b29da
+[30-Jan-2026 07:07:58 UTC] Region: main
+[30-Jan-2026 07:07:58 UTC] 파일 경로: /Users/moon/php_gwangju/data/submissions-main.json
+[30-Jan-2026 07:07:58 UTC] 삭제 전 개수: 1
+[30-Jan-2026 07:07:58 UTC] 삭제 후 개수: 0
+[30-Jan-2026 07:07:58 UTC] ✅ 삭제 성공
