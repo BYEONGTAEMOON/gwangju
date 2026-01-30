@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="제주 허니문박람회 - 예비 부부들을 위한 신혼여행 박람회" />
+        <meta name="keywords" content="제주,허니문박람회,신혼여행" />
+        <title>제주 허니문박람회 투어민</title>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="/landing.css" />
+        <style>
+            /* 상단 네비게이션 */
+            .top-nav {
+                background: rgba(255, 255, 255, 0.9);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                padding: 0;
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+            .nav-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px 20px;
+            }
+            .nav-logo {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 1.5em;
+                font-weight: 700;
+                color: black;
+                text-decoration: none;
+            }
+            .nav-logo img {
+                height: 70px;
+                width: auto;
+            }
+            .nav-menu {
+                display: flex;
+                gap: 5px;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            .nav-menu li a {
+                color: black;
+                text-decoration: none;
+                padding: 10px 15px;
+                border-radius: 5px;
+                font-weight: 500;
+                transition: background 0.3s;
+                display: block;
+            }
+            .nav-menu li a:hover,
+            .nav-menu li a.active {
+                background: rgba(0, 0, 0, 0.1);
+            }
+            .mobile-menu-btn {
+                display: none;
+                background: none;
+                border: none;
+                color: black;
+                font-size: 1.5em;
+                cursor: pointer;
+            }
+            @media screen and (max-width: 768px) {
+                .nav-menu {
+                    display: none;
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    right: 0;
+                    background-color: white;
+                    flex-direction: column;
+                    padding: 10px 0;
+                }
+                .nav-menu.active {
+                    display: flex;
+                }
+                .nav-menu li {
+                    width: 100%;
+                }
+                .nav-menu li a {
+                    padding: 15px 20px;
+                    border-radius: 0;
+                }
+                .mobile-menu-btn {
+                    display: block;
+                }
+                .nav-container {
+                    position: relative;
+                }
+            }
+            .pc_wrap {
+                display: block;
+            }
+            .mob_wrap {
+                display: none;
+            }
+            @media screen and (max-width: 768px) {
+                .pc_wrap {
+                    display: none;
+                }
+                .mob_wrap {
+                    display: block;
+                }
+            }
+            .image-section {
+                font-size: 0;
+            }
+            .image-section img {
+                width: 100%;
+                cursor: pointer;
+                display: block;
+            }
+            .youtube-wrapper {
+                position: relative;
+                width: 100%;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+            }
+            .youtube-wrapper iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+            .form-container {
+                margin: 0;
+                padding: 0;
+                font-size: 16px;
+            }
+            .loading {
+                text-align: center;
+                padding: 100px 20px;
+                font-size: 1.2em;
+                color: #667eea;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="top-nav">
+            <div class="nav-container">
+                <a href="/" class="nav-logo">
+                    <img src="/logo.svg" alt="투어민 로고" />
+                    <span>투어민 허니문박람회</span>
+                </a>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="/sub/seoul.html">서울</a></li>
+                    <li><a href="/sub/incheon.html">인천</a></li>
+                    <li><a href="/sub/suwon.html">수원</a></li>
+                    <li><a href="/sub/daegu.html">대구</a></li>
+                    <li><a href="/sub/busan.html">부산</a></li>
+                    <li><a href="/sub/ulsan.html">울산</a></li>
+                    <li><a href="/sub/gwangju.html">광주</a></li>
+                    <li><a href="/sub/jeju.html" class="active">제주</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="pc_wrap">
+            <div class="image-section" id="pcImages">
+                <div class="loading">이미지 로딩 중...</div>
+            </div>
+        </div>
+
+        <div class="mob_wrap">
+            <div class="image-section" id="mobileImages">
+                <div class="loading">이미지 로딩 중...</div>
+            </div>
+        </div>
+
+        <div id="privacyModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closePrivacyModal()">&times;</span>
+                <h3>개인정보 처리방침</h3>
+                <div class="privacy-content">
+                    <h4>[개인정보의 보유 및 이용기간]</h4>
+                    <p>원칙적으로, 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다.</p>
+                    <h4>보존 항목:</h4>
+                    <p>이름, 휴대전화번호, 서비스 이용기록</p>
+                    <h4>관계법령에 따른 보관:</h4>
+                    <ul>
+                        <li>계약 또는 청약철회 등에 관한 기록: 5년</li>
+                        <li>대금결제 및 재화 등의 공급에 관한 기록: 5년</li>
+                        <li>소비자의 불만 또는 분쟁처리에 관한 기록: 3년</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="successModal" class="modal">
+            <div class="modal-content success-modal">
+                <div class="success-icon">✓</div>
+                <h2>신청이 완료되었습니다!</h2>
+                <p class="success-message">
+                    소중한 신청 감사합니다.<br />
+                    빠른 시일 내에 연락드리겠습니다.
+                </p>
+                <button class="success-button" onclick="closeSuccessModal()">확인</button>
+            </div>
+        </div>
+
+        <footer class="info-section">
+            <div class="company-info">
+                <p><strong>상호명:</strong> (주)투어민</p>
+                <p><strong>사업자번호:</strong> 557-87-00434</p>
+                <p><strong>대표:</strong> 민경세</p>
+                <p><strong>사업장소재지:</strong> 서울시 강남구 논현로 503, 송촌빌딩 16층 1601호(역삼역 6번출구)</p>
+                <p><strong>연락처:</strong> 02-6204-0064</p>
+                <p><strong>관광사업자등록:</strong> 제 2016-000018호</p>
+            </div>
+        </footer>
+
+        <script>
+            const REGION = 'jeju';
+        </script>
+        <script src="/landing-dynamic.js"></script>
+        <script>
+            function toggleMobileMenu() {
+                const menu = document.getElementById('navMenu');
+                menu.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
+
